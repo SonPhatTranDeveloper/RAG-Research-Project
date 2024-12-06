@@ -112,6 +112,7 @@ class ChromaVectorStore(VectorStore, ABC):
 
 if __name__ == "__main__":
     # Read markdown file
+    # Replace with your path to a markdown file
     document_source = "data/markdowns/text/Chapter_3.md"
     with open(document_source, "r") as input_file:
         text = input_file.read()
@@ -125,9 +126,11 @@ if __name__ == "__main__":
         chunk.document_name = document_source
 
     # Create vector store for the chunk
+    # Replace with your appropriate API keys
     from llm import LargeLanguageModelBuilder
-    embedding, llm = LargeLanguageModelBuilder.get_google_gemini_model("AIzaSyDTzDiLUvpSxZfEeEh91uQ8HHadE1VRJzg")
+    embedding, llm = LargeLanguageModelBuilder.get_google_gemini_model("[YOUR API KEY GOES HERE]")
 
+    # Replace with your appropriate folder to store the Chrome vector store
     vector_store = ChromaVectorStore("data/vectors/chroma", embedding_function=embedding)
     vector_store.save(chunks)
     chunks = vector_store.load()
