@@ -1,3 +1,8 @@
+"""
+Author: Trang Anh Thuan & Son Phat Tran
+This file contains the example usage of converting PDFs file in a folder to Markdown files
+"""
+
 from markdown_converter.folder_converter import convert_folder
 from markdown_converter.file_converter import MinerUConverter
 

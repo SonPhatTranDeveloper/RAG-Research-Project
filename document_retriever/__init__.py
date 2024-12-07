@@ -1,5 +1,5 @@
 """
-Author: Son Phat Tran
+Author: Trang Anh Thuan & Son Phat Tran
 This file contains various implementation of document retriever
 """
 from abc import ABC, abstractmethod

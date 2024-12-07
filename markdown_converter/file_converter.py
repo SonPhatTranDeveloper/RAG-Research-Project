@@ -1,5 +1,5 @@
 """
-Author: Son Phat Tran
+Author: Trang Anh Thuan & Son Phat Tran
 This file defines the various converter used to convert PDF files to Markdown files
 """
 import os

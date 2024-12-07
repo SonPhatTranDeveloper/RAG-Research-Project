@@ -1,5 +1,5 @@
 """
-Author: Son Phat Tran
+Author: Trang Anh Thuan & Son Phat Tran
 This file contains the logic for the RAG pipeline
 """
 from typing import Dict, List, Any

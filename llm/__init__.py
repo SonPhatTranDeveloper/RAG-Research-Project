@@ -1,5 +1,5 @@
 """
-Author: Son Phat Tran
+Author: Trang Anh Thuan & Son Phat Tran
 This file contains various LLMs used in the RAG pipeline
 """
 from typing import Tuple

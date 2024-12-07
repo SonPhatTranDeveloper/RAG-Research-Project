@@ -1,5 +1,5 @@
 """
-Author: Son Phat Tran
+Author: Trang Anh Thuan & Son Phat Tran
 This file contains the logic of converting PDFs file in a folder to Markdown files
 """
 import os

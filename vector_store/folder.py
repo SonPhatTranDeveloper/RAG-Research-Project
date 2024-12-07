@@ -1,5 +1,5 @@
 """
-Author: Son Phat Tran
+Author: Trang Anh Thuan & Son Phat Tran
 This file contains the logic for loading and saving text chunk for all documents within a folder
 """
 import os
